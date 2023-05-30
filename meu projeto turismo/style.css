@@ -44,6 +44,11 @@ header{
     color: #fff;
 }
 
+header h1{
+    text-shadow: 2px 2px 4px black;
+
+}
+
 header .list-itens{
     display: flex;
     width: 100%;
@@ -80,9 +85,10 @@ header .menu{
     color: rgb(17, 17, 124);
     font-size: 48px;
     margin-bottom: 10px;
+    
 }
 
-.t-apresentacao a{
+.btn{
     
     display: block;
     background-color: rgb(17, 17, 124);
@@ -128,6 +134,101 @@ header .menu{
     width: 90%;
   }
   
+  #quem-somos img{
+    min-height: 420px;
+}
+
+
+
+/*Serviços*/
+
+
+.container-externo{
+    background-color:rgb(17, 17, 124);
+    width: 100%;
+
+}
+
+#servicos{
+    flex-direction: column;
+    padding-top: 50px ;
+    padding-bottom: 100px;
+}
+
+#servicos h2{
+    color:#fff ;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+
+.list-servicos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-servicos .item-servicos{
+    text-align: center;
+
+}
+
+ .item-servicos a{
+    width: 220px;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 50px;
+    padding: 5px 10px;
+    color:rgb(17, 17, 124);
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 700;
+
+
+}
+
+
+.item-servicos p{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+
+}
+.item-servico img{
+    width: 80%;
+    margin: auto;
+}
+
+/*Planos*/
+
+#planos{
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.list-planos{
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.item-planos{
+    flex: 1;
+    border:2px solid blue;
+    margin-right: 20px;
+}
+
+.item-planos .btn{
+    margin: auto;
+}
+
 
 
 
